@@ -53,18 +53,6 @@ emails = page.emails()
 print(emails)
 ```
 
-### Поиск элементов по часто используемым тегам
-
-Для удобства, библиотека предоставляет динамически созданные функции для поиска элементов по часто используемым тегам, например:
-
-```python
-from easy_parse import find_h1, find_as, find_divs
-
-header = find_h1(page)
-links = find_as(page)
-divs = find_divs(page, 'main-content')
-```
-
 ## Установка
 
 ```bash
